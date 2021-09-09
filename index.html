@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Enigma Machine</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1 id="bigtitle" class="title">Enigma</h1>
+        <p id="sentence"></p>
+        <p id="sentencecode"></p>
+        <button onclick="copy('#sentencecode')">Copier</button><br>
+        <div class="keyboard">
+            <div id="a" class="key">
+                <h2 class="key-letter">A</h2>
+            </div>
+            <div id="z" class="key">
+                <h2 class="key-letter">Z</h2>
+            </div>
+            <div id="e" class="key">
+                <h2 class="key-letter">E</h2>
+            </div>
+            <div id="r" class="key">
+                <h2 class="key-letter">R</h2>
+            </div>
+            <div id="t" class="key">
+                <h2 class="key-letter">T</h2>
+            </div>
+            <div id="y" class="key">
+                <h2 class="key-letter">Y</h2>
+            </div>
+            <div id="u" class="key">
+                <h2 class="key-letter">U</h2>
+            </div>
+            <div id="i" class="key">
+                <h2 class="key-letter">I</h2>
+            </div>
+            <div id="o" class="key">
+                <h2 class="key-letter">O</h2>
+            </div>
+            <div id="p" class="key">
+                <h2 class="key-letter">P</h2>
+            </div>
+        </div><br>
+        <div class="keyboard">
+            <div id="q" class="key">
+                <h2 class="key-letter">Q</h2>
+            </div>
+            <div id="s" class="key">
+                <h2 class="key-letter">S</h2>
+            </div>
+            <div id="d" class="key">
+                <h2 class="key-letter">D</h2>
+            </div>
+            <div id="f" class="key">
+                <h2 class="key-letter">F</h2>
+            </div>
+            <div id="g" class="key">
+                <h2 class="key-letter">G</h2>
+            </div>
+            <div id="h" class="key">
+                <h2 class="key-letter">H</h2>
+            </div>
+            <div id="j" class="key">
+                <h2 class="key-letter">J</h2>
+            </div>
+            <div id="k" class="key">
+                <h2 class="key-letter">K</h2>
+            </div>
+            <div id="l" class="key">
+                <h2 class="key-letter">L</h2>
+            </div>
+            <div id="m" class="key">
+                <h2 class="key-letter">M</h2>
+            </div>
+        </div><br>
+        <div class="keyboard">
+            <div id="w" class="key">
+                <h2 class="key-letter">W</h2>
+            </div>
+            <div id="x" class="key">
+                <h2 class="key-letter">X</h2>
+            </div>
+            <div id="c" class="key">
+                <h2 class="key-letter">C</h2>
+            </div>
+            <div id="v" class="key">
+                <h2 class="key-letter">V</h2>
+            </div>
+            <div id="b" class="key">
+                <h2 class="key-letter">B</h2>
+            </div>
+            <div id="n" class="key">
+                <h2 class="key-letter">N</h2>
+            </div>
+        </div><br>
+        <div class="rotor">
+            <h1 class="rotor-nbr" id="first">0</h1>
+            <h1 class="rotor-nbr" id="second">0</h1>
+            <h1 class="rotor-nbr" id="third">0</h1>
+        </div>
+        
+        <script src="script.js" type="text/javascript"></script>
+    </body> 
+</html>
